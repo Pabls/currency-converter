@@ -1,11 +1,11 @@
-package com.ar4i.currencyconverter;
+package com.ar4i.currencyconverter.presentation.converter.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
-    
-    int order = 1;
+import com.ar4i.currencyconverter.R;
+
+public class ConverterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
