@@ -9,6 +9,10 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String" , "CBR_URL" , '"http://www.cbr.ru/scripts/XML_daily.asp"'
+        buildConfigField "String" , "DB_NAME" , '"com.ar4i.currencyconverter.database"'
+        buildConfigField "int" , "DB_VERSION" , '1'
     }
     buildTypes {
         release {

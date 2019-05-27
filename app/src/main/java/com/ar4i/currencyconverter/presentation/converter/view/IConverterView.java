@@ -1,4 +1,7 @@
 package com.ar4i.currencyconverter.presentation.converter.view;
 
-public interface IConverterView {
+import com.ar4i.currencyconverter.presentation.base.view.IBaseView;
+
+public interface IConverterView extends IBaseView {
+
 }
